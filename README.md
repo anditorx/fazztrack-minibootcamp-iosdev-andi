@@ -21,3 +21,11 @@ Learn TableView
 [Project Week 2 Day 2](https://github.com/anditorx/fazztrack-minibootcamp-iosdev-andi/tree/main/Week2-Day02-TableView)
 
 ![TableView](https://github.com/anditorx/fazztrack-minibootcamp-iosdev-andi/blob/main/Week2-Day02-TableView/Tugas_TableView/Simulator%20Screen%20Recording%20-%20iPhone%2013%20-%202022-09-18%20at%2014.56.53.gif)
+
+## Week 3 - Day 1 (Sesi 4)
+
+Learn Swift Intermediate & Action Sheet for favorite coffee shop
+
+[Project Week 3 Day 1](https://github.com/anditorx/fazztrack-minibootcamp-iosdev-andi/tree/main/Week3-Day02-SwiftIntermediate%20%26%20Rebuild%20Your%20App)
+
+![Tugas Sesi 4](https://github.com/anditorx/fazztrack-minibootcamp-iosdev-andi/blob/main/Week3-Day02-SwiftIntermediate%20%26%20Rebuild%20Your%20App/result.gif)
