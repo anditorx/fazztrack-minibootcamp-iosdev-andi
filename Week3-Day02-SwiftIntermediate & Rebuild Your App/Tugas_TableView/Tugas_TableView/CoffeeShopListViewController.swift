@@ -81,8 +81,6 @@ class CoffeeShopListViewController: UIViewController, UITableViewDataSource, UIT
             favoritedCoffeeShop.append(index)
         }
         
-        
-        
         // kalau reloadData() dia melakukan refresh keseluruhan datanya
         // tableView.reloadData()
         
