@@ -64,9 +64,7 @@
 				E58D0CEA28D5EE8F00431187 /* Assets.xcassets */,
 				E58D0CEC28D5EE8F00431187 /* LaunchScreen.storyboard */,
 				E5D2728E28E0E0D100CF575E /* App */,
-				E5D2729128E0E17400CF575E /* Models */,
-				E5D2729428E0E19900CF575E /* Controllers */,
-				E5D2729328E0E19200CF575E /* Views */,
+				E5D2729528E0E47900CF575E /* Modules */,
 			);
 			path = Tugas_TableView;
 			sourceTree = "<group>";
@@ -103,6 +101,24 @@
 				E58D0CF528D5F26700431187 /* CoffeeShop.storyboard */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E5D2729528E0E47900CF575E /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				E5D2729628E0E49500CF575E /* CoffeeShop */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		E5D2729628E0E49500CF575E /* CoffeeShop */ = {
+			isa = PBXGroup;
+			children = (
+				E5D2729128E0E17400CF575E /* Models */,
+				E5D2729428E0E19900CF575E /* Controllers */,
+				E5D2729328E0E19200CF575E /* Views */,
+			);
+			path = CoffeeShop;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
