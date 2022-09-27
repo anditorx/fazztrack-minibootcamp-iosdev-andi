@@ -29,3 +29,23 @@ Learn Swift Intermediate & Action Sheet for favorite coffee shop
 [Project Week 3 Day 1](https://github.com/anditorx/fazztrack-minibootcamp-iosdev-andi/tree/main/04-Week3-Day01-SwiftIntermediate%20%26%20Rebuild%20Your%20App)
 
 ![Tugas Sesi 4](https://github.com/anditorx/fazztrack-minibootcamp-iosdev-andi/blob/main/04-Week3-Day01-SwiftIntermediate%20%26%20Rebuild%20Your%20App/result.gif)
+
+## Week 3 - Day 2 (Session 5)
+
+Learn Swift OOP
+
+[Project Week 3 Day 2](https://github.com/anditorx/fazztrack-minibootcamp-iosdev-andi/tree/main/05-Week3-Day02-OOP)
+
+![Tugas Sesi 5](https://github.com/anditorx/fazztrack-minibootcamp-iosdev-andi/blob/main/05-Week3-Day02-OOP/result-sesi5.gif)
+
+- Action Sheet for favorite coffee shop
+
+## Week 4 - Day 1 (Session 6)
+
+Learn Swift Optional Unwrappping
+
+[Project Week 4 Day 1](https://github.com/anditorx/fazztrack-minibootcamp-iosdev-andi/tree/main/06-Week4-Day01-Optional%20Unwrapping%20in%20Swift)
+
+![Tugas Sesi 5](https://github.com/anditorx/fazztrack-minibootcamp-iosdev-andi/blob/main/06-Week4-Day01-Optional%20Unwrapping%20in%20Swift/result.gif)
+
+- Swipe Lerf & Right - Share, Delete, Like
