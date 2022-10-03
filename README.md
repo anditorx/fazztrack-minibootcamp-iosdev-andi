@@ -49,3 +49,19 @@ Learn Swift Optional Unwrappping
 ![Tugas Sesi 5](https://github.com/anditorx/fazztrack-minibootcamp-iosdev-andi/blob/main/06-Week4-Day01-Optional%20Unwrapping%20in%20Swift/result.gif)
 
 - Swipe Lerf & Right - Share, Delete, Like
+
+## Week 4 - Day 2 (Session 7)
+
+Learn Model View Controller
+
+[SleepApp](https://github.com/anditorx/fazztrack-minibootcamp-iosdev-andi/tree/main/07-Week4-Day02-MVC/SleepApp)
+
+![SleepApp Result](https://github.com/anditorx/fazztrack-minibootcamp-iosdev-andi/blob/main/07-Week4-Day02-MVC/sleepApp.png)
+
+[Tugas Pertemuan 7](https://github.com/anditorx/fazztrack-minibootcamp-iosdev-andi/tree/main/07-Week4-Day02-MVC/Tugas_TableView)
+
+![Tugas Pertemuan 7 Result](https://github.com/anditorx/fazztrack-minibootcamp-iosdev-andi/blob/main/07-Week4-Day02-MVC/result_tugas.gif)
+
+- Learn Model View Controller
+- Create Sleep App Project
+- Exercise TableView (Session 7)
