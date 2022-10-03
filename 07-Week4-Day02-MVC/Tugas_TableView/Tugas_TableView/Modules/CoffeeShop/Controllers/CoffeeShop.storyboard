@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="fUh-bw-677">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Recipes-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController id="Y6W-OH-hqX" customClass="CoffeeShopListViewController" customModule="Tugas_TableView" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="DKH-S6-g7Y">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="coffeeShopCellId" rowHeight="137" id="wVU-NL-vDu" customClass="CoffeeShopViewCell" customModule="Tugas_TableView" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="44.5" width="414" height="137"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="wVU-NL-vDu" id="svg-81-o83">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="137"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bojaeatery" translatesAutoresizingMaskIntoConstraints="NO" id="rcp-gn-tOw">
+                                                    <rect key="frame" x="20" y="31" width="100" height="86"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="100" id="Tcd-Iz-Jly"/>
+                                                        <constraint firstAttribute="height" constant="100" id="Wjo-hN-ZQx"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Adk-LD-j2W">
+                                                    <rect key="frame" x="130" y="31" width="244" height="48.5"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dua Kopi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x1N-pg-zEE">
+                                                            <rect key="frame" x="0.0" y="0.0" width="244" height="26.5"/>
+                                                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CoffeeShop / Cafe" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ALN-SH-50u">
+                                                            <rect key="frame" x="0.0" y="31.5" width="244" height="17"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="17" id="1Yp-fT-TNc"/>
+                                                            </constraints>
+                                                            <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                </stackView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="rcp-gn-tOw" secondAttribute="bottom" constant="20" id="9kV-5Z-uaU"/>
+                                                <constraint firstItem="rcp-gn-tOw" firstAttribute="top" secondItem="svg-81-o83" secondAttribute="topMargin" constant="20" id="FjC-Ib-pZr"/>
+                                                <constraint firstItem="Adk-LD-j2W" firstAttribute="leading" secondItem="rcp-gn-tOw" secondAttribute="trailing" constant="10" id="OPh-Wv-Iki"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="Adk-LD-j2W" secondAttribute="trailing" constant="20" id="j4I-3I-Cn1"/>
+                                                <constraint firstItem="rcp-gn-tOw" firstAttribute="leading" secondItem="svg-81-o83" secondAttribute="leading" constant="20" id="s3j-IP-ffd"/>
+                                                <constraint firstItem="Adk-LD-j2W" firstAttribute="top" secondItem="svg-81-o83" secondAttribute="topMargin" constant="20" id="uFL-pH-Nw4"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="categoryLabel" destination="ALN-SH-50u" id="BMZ-9g-zrv"/>
+                                            <outlet property="nameLabel" destination="x1N-pg-zEE" id="S6M-eq-MBe"/>
+                                            <outlet property="thumbImageView" destination="rcp-gn-tOw" id="9EH-oH-bNO"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="DKH-S6-g7Y" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" id="NrA-S1-vXJ"/>
+                            <constraint firstItem="DKH-S6-g7Y" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="nH9-ma-rMF"/>
+                            <constraint firstItem="DKH-S6-g7Y" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="sG6-M7-Ljj"/>
+                            <constraint firstAttribute="bottom" secondItem="DKH-S6-g7Y" secondAttribute="bottom" id="z6U-ph-Yza"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Recipes" id="dkR-11-bdM"/>
+                    <connections>
+                        <outlet property="tableView" destination="DKH-S6-g7Y" id="kbw-K3-Kk3"/>
+                        <segue destination="Np2-7J-ohH" kind="show" id="TsC-hu-78M"/>
+                        <segue destination="Np2-7J-ohH" kind="show" id="biE-c1-mhj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1182.608695652174" y="94.419642857142847"/>
+        </scene>
+        <!--Coffee Shop Detail View Controller-->
+        <scene sceneID="qgl-tI-PfY">
+            <objects>
+                <viewController storyboardIdentifier="CoffeeShopDetail" id="Np2-7J-ohH" customClass="CoffeeShopDetailViewController" customModule="Tugas_TableView" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="aeB-Bd-c2A">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="angry_birds_cake" translatesAutoresizingMaskIntoConstraints="NO" id="68Z-D8-QOk">
+                                <rect key="frame" x="0.0" y="108" width="414" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="JA3-C6-wzp"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="l04-9m-6nZ">
+                                <rect key="frame" x="20" y="428" width="374" height="53.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mG0-cj-dUn">
+                                        <rect key="frame" x="0.0" y="0.0" width="46" height="29"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="24"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sub" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cIe-sN-uYI">
+                                        <rect key="frame" x="0.0" y="34" width="28.5" height="19.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="2Pa-07-Ryh"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="l04-9m-6nZ" firstAttribute="top" secondItem="68Z-D8-QOk" secondAttribute="bottom" constant="20" id="7NQ-We-vm8"/>
+                            <constraint firstItem="2Pa-07-Ryh" firstAttribute="trailing" secondItem="68Z-D8-QOk" secondAttribute="trailing" id="DtA-zC-F46"/>
+                            <constraint firstItem="68Z-D8-QOk" firstAttribute="leading" secondItem="2Pa-07-Ryh" secondAttribute="leading" id="HTW-B7-c2s"/>
+                            <constraint firstItem="68Z-D8-QOk" firstAttribute="top" secondItem="2Pa-07-Ryh" secondAttribute="top" constant="20" id="Of3-Vj-aNj"/>
+                            <constraint firstItem="l04-9m-6nZ" firstAttribute="leading" secondItem="2Pa-07-Ryh" secondAttribute="leading" constant="20" id="bBT-n8-se8"/>
+                            <constraint firstItem="2Pa-07-Ryh" firstAttribute="trailing" secondItem="l04-9m-6nZ" secondAttribute="trailing" constant="20" id="pz0-4G-W5D"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="MPS-MP-xFf"/>
+                    <connections>
+                        <outlet property="imageDetail" destination="68Z-D8-QOk" id="jMe-gh-aPB"/>
+                        <outlet property="subDetail" destination="cIe-sN-uYI" id="1El-zD-g0T"/>
+                        <outlet property="titleDetail" destination="mG0-cj-dUn" id="isW-vs-c9o"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2IY-kY-LaY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1897.1014492753625" y="93.75"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="dXM-ag-If2">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="fUh-bw-677" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="W0g-wQ-U5m">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Y6W-OH-hqX" kind="relationship" relationship="rootViewController" id="4y6-Dm-Fxa"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DRf-XJ-2vj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="273.91304347826087" y="94.419642857142847"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="biE-c1-mhj"/>
+    </inferredMetricsTieBreakers>
+    <resources>
+        <image name="angry_birds_cake" width="141" height="141"/>
+        <image name="bojaeatery" width="427" height="427"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
