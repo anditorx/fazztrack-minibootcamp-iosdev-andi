@@ -65,3 +65,13 @@ Learn Model View Controller
 - Learn Model View Controller
 - Create Sleep App Project
 - Exercise TableView (Session 7)
+
+## Week 5 - Day 1 (Session 8)
+
+Learn TabBar
+
+[SleepApp](https://github.com/anditorx/fazztrack-minibootcamp-iosdev-andi/tree/main/08-Week5-Day01-TabBar/SleepApp)
+
+![SleepApp Result](https://github.com/anditorx/fazztrack-minibootcamp-iosdev-andi/blob/main/08-Week5-Day01-TabBar/result.gif)
+
+- Learn TabBar
