@@ -8,10 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		E53AF67D28E9AE0000CC4898 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53AF67C28E9AE0000CC4898 /* WelcomeViewController.swift */; };
-		E59B979F28EC641600BF2003 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59B979E28EC641600BF2003 /* MainViewController.swift */; };
+		E550BE5C28ED74250099A8AF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E550BE5B28ED74250099A8AF /* MainViewController.swift */; };
+		E550BE5E28ED901C0099A8AF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E550BE5D28ED901C0099A8AF /* HomeViewController.swift */; };
+		E550BE6128ED98B10099A8AF /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E550BE6028ED98B10099A8AF /* UIColorExtensions.swift */; };
+		E566F0C828EEB076002A8D5C /* HomeItem1ViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E566F0C728EEB076002A8D5C /* HomeItem1ViewCell.swift */; };
 		E5BE32BD28E7222D009DE364 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BE32BC28E7222D009DE364 /* AppDelegate.swift */; };
 		E5BE32BF28E7222D009DE364 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BE32BE28E7222D009DE364 /* SceneDelegate.swift */; };
-		E5BE32C128E7222D009DE364 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BE32C028E7222D009DE364 /* ViewController.swift */; };
 		E5BE32C428E7222D009DE364 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5BE32C228E7222D009DE364 /* Main.storyboard */; };
 		E5BE32C628E7222F009DE364 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5BE32C528E7222F009DE364 /* Assets.xcassets */; };
 		E5BE32C928E7222F009DE364 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5BE32C728E7222F009DE364 /* LaunchScreen.storyboard */; };
@@ -20,11 +22,13 @@
 
 /* Begin PBXFileReference section */
 		E53AF67C28E9AE0000CC4898 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
-		E59B979E28EC641600BF2003 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		E550BE5B28ED74250099A8AF /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		E550BE5D28ED901C0099A8AF /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		E550BE6028ED98B10099A8AF /* UIColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
+		E566F0C728EEB076002A8D5C /* HomeItem1ViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeItem1ViewCell.swift; sourceTree = "<group>"; };
 		E5BE32B928E7222D009DE364 /* SleepApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SleepApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5BE32BC28E7222D009DE364 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5BE32BE28E7222D009DE364 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E5BE32C028E7222D009DE364 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E5BE32C328E7222D009DE364 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E5BE32C528E7222F009DE364 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5BE32C828E7222F009DE364 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -43,6 +47,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E550BE5F28ED94CA0099A8AF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E550BE6028ED98B10099A8AF /* UIColorExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		E5BE32B028E7222D009DE364 = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +74,7 @@
 		E5BE32BB28E7222D009DE364 /* SleepApp */ = {
 			isa = PBXGroup;
 			children = (
+				E550BE5F28ED94CA0099A8AF /* Extensions */,
 				E5BE32BC28E7222D009DE364 /* AppDelegate.swift */,
 				E5BE32BE28E7222D009DE364 /* SceneDelegate.swift */,
 				E5BE32C528E7222F009DE364 /* Assets.xcassets */,
@@ -95,8 +108,9 @@
 			isa = PBXGroup;
 			children = (
 				E5BE32C228E7222D009DE364 /* Main.storyboard */,
-				E5BE32C028E7222D009DE364 /* ViewController.swift */,
-				E59B979E28EC641600BF2003 /* MainViewController.swift */,
+				E550BE5B28ED74250099A8AF /* MainViewController.swift */,
+				E550BE5D28ED901C0099A8AF /* HomeViewController.swift */,
+				E566F0C728EEB076002A8D5C /* HomeItem1ViewCell.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -180,11 +194,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5BE32C128E7222D009DE364 /* ViewController.swift in Sources */,
+				E550BE5E28ED901C0099A8AF /* HomeViewController.swift in Sources */,
+				E566F0C828EEB076002A8D5C /* HomeItem1ViewCell.swift in Sources */,
 				E53AF67D28E9AE0000CC4898 /* WelcomeViewController.swift in Sources */,
 				E5BE32BD28E7222D009DE364 /* AppDelegate.swift in Sources */,
+				E550BE6128ED98B10099A8AF /* UIColorExtensions.swift in Sources */,
 				E5BE32BF28E7222D009DE364 /* SceneDelegate.swift in Sources */,
-				E59B979F28EC641600BF2003 /* MainViewController.swift in Sources */,
+				E550BE5C28ED74250099A8AF /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
