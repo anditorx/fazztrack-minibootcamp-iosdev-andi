@@ -12,6 +12,8 @@
 		E550BE5E28ED901C0099A8AF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E550BE5D28ED901C0099A8AF /* HomeViewController.swift */; };
 		E550BE6128ED98B10099A8AF /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E550BE6028ED98B10099A8AF /* UIColorExtensions.swift */; };
 		E566F0C828EEB076002A8D5C /* HomeItem1ViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E566F0C728EEB076002A8D5C /* HomeItem1ViewCell.swift */; };
+		E56F5BC128F227DF00DA2D99 /* RecommendedListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56F5BC028F227DF00DA2D99 /* RecommendedListViewCell.swift */; };
+		E56F5BC328F2F49B00DA2D99 /* RecommendedViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56F5BC228F2F49B00DA2D99 /* RecommendedViewCell.swift */; };
 		E5BE32BD28E7222D009DE364 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BE32BC28E7222D009DE364 /* AppDelegate.swift */; };
 		E5BE32BF28E7222D009DE364 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BE32BE28E7222D009DE364 /* SceneDelegate.swift */; };
 		E5BE32C428E7222D009DE364 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5BE32C228E7222D009DE364 /* Main.storyboard */; };
@@ -26,6 +28,8 @@
 		E550BE5D28ED901C0099A8AF /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		E550BE6028ED98B10099A8AF /* UIColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
 		E566F0C728EEB076002A8D5C /* HomeItem1ViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeItem1ViewCell.swift; sourceTree = "<group>"; };
+		E56F5BC028F227DF00DA2D99 /* RecommendedListViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedListViewCell.swift; sourceTree = "<group>"; };
+		E56F5BC228F2F49B00DA2D99 /* RecommendedViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedViewCell.swift; sourceTree = "<group>"; };
 		E5BE32B928E7222D009DE364 /* SleepApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SleepApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5BE32BC28E7222D009DE364 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5BE32BE28E7222D009DE364 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -111,6 +115,8 @@
 				E550BE5B28ED74250099A8AF /* MainViewController.swift */,
 				E550BE5D28ED901C0099A8AF /* HomeViewController.swift */,
 				E566F0C728EEB076002A8D5C /* HomeItem1ViewCell.swift */,
+				E56F5BC028F227DF00DA2D99 /* RecommendedListViewCell.swift */,
+				E56F5BC228F2F49B00DA2D99 /* RecommendedViewCell.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -195,7 +201,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E550BE5E28ED901C0099A8AF /* HomeViewController.swift in Sources */,
+				E56F5BC328F2F49B00DA2D99 /* RecommendedViewCell.swift in Sources */,
 				E566F0C828EEB076002A8D5C /* HomeItem1ViewCell.swift in Sources */,
+				E56F5BC128F227DF00DA2D99 /* RecommendedListViewCell.swift in Sources */,
 				E53AF67D28E9AE0000CC4898 /* WelcomeViewController.swift in Sources */,
 				E5BE32BD28E7222D009DE364 /* AppDelegate.swift in Sources */,
 				E550BE6128ED98B10099A8AF /* UIColorExtensions.swift in Sources */,
