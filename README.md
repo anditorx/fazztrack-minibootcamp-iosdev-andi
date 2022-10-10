@@ -75,3 +75,11 @@ Learn TabBar
 ![SleepApp Result](https://github.com/anditorx/fazztrack-minibootcamp-iosdev-andi/blob/main/08-Week5-Day01-TabBar/result.gif)
 
 - Learn TabBar
+
+## Week 5 - Day 2 (Session 9)
+
+Learn Custom TableView & Custom UIView
+
+[SleepApp](https://github.com/anditorx/fazztrack-minibootcamp-iosdev-andi/tree/main/09-Week5-Day02-CustomTableView/SleepApp)
+
+![SleepApp Result](https://github.com/anditorx/fazztrack-minibootcamp-iosdev-andi/blob/main/09-Week5-Day02-CustomTableView/result-sleepapp-sesi9.gif)
