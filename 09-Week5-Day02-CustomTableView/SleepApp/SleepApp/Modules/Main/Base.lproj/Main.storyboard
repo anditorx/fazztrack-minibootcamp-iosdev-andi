@@ -359,7 +359,7 @@
         <!--Home-->
         <scene sceneID="7VI-JS-cOO">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Qpa-EQ-SVI" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" hidesBarsOnSwipe="YES" id="Qpa-EQ-SVI" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Home" image="tab_home" selectedImage="tab_home" id="Sg5-Ij-lrm"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="2i6-1J-E3W">
