@@ -10,6 +10,8 @@
 		E50A670528F5D78E008F9B54 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50A670428F5D78E008F9B54 /* WelcomeViewController.swift */; };
 		E50A670728F5DD1C008F9B54 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50A670628F5DD1C008F9B54 /* MainViewController.swift */; };
 		E50A670928F5DEA4008F9B54 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50A670828F5DEA4008F9B54 /* HomeViewController.swift */; };
+		E5742B4528F88850003B2D56 /* MenuHorizontalViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5742B4428F88850003B2D56 /* MenuHorizontalViewCell.swift */; };
+		E5742B4728F88D4E003B2D56 /* MenuViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5742B4628F88D4E003B2D56 /* MenuViewCell.swift */; };
 		E5BBFC9A28F5976F001AFE8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BBFC9928F5976F001AFE8C /* AppDelegate.swift */; };
 		E5BBFC9C28F5976F001AFE8C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BBFC9B28F5976F001AFE8C /* SceneDelegate.swift */; };
 		E5BBFCA128F5976F001AFE8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5BBFC9F28F5976F001AFE8C /* Main.storyboard */; };
@@ -24,6 +26,8 @@
 		E50A670428F5D78E008F9B54 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		E50A670628F5DD1C008F9B54 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		E50A670828F5DEA4008F9B54 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		E5742B4428F88850003B2D56 /* MenuHorizontalViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuHorizontalViewCell.swift; sourceTree = "<group>"; };
+		E5742B4628F88D4E003B2D56 /* MenuViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewCell.swift; sourceTree = "<group>"; };
 		E5BBFC9628F5976F001AFE8C /* Medic Meditation App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Medic Meditation App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5BBFC9928F5976F001AFE8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5BBFC9B28F5976F001AFE8C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -100,9 +104,11 @@
 			isa = PBXGroup;
 			children = (
 				E5BBFC9F28F5976F001AFE8C /* Main.storyboard */,
+				E5742B4428F88850003B2D56 /* MenuHorizontalViewCell.swift */,
 				E50A670628F5DD1C008F9B54 /* MainViewController.swift */,
 				E50A670828F5DEA4008F9B54 /* HomeViewController.swift */,
 				E5E2333628F736B300F34AEA /* HomeCollectionViewCell.swift */,
+				E5742B4628F88D4E003B2D56 /* MenuViewCell.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -195,9 +201,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5E2333728F736B300F34AEA /* HomeCollectionViewCell.swift in Sources */,
+				E5742B4528F88850003B2D56 /* MenuHorizontalViewCell.swift in Sources */,
 				E50A670928F5DEA4008F9B54 /* HomeViewController.swift in Sources */,
 				E50A670528F5D78E008F9B54 /* WelcomeViewController.swift in Sources */,
 				E5BBFC9A28F5976F001AFE8C /* AppDelegate.swift in Sources */,
+				E5742B4728F88D4E003B2D56 /* MenuViewCell.swift in Sources */,
 				E5BBFC9C28F5976F001AFE8C /* SceneDelegate.swift in Sources */,
 				E50A670728F5DD1C008F9B54 /* MainViewController.swift in Sources */,
 				E5E973DF28F5E3C0004C09C1 /* UIColorExtension.swift in Sources */,
