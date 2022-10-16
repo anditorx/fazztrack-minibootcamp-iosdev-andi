@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Welcome View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController id="Y6W-OH-hqX" customClass="WelcomeViewController" customModule="SleepApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg-iphone" translatesAutoresizingMaskIntoConstraints="NO" id="MlO-vo-Jdt">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="character-1" translatesAutoresizingMaskIntoConstraints="NO" id="7Ia-OL-WVt">
+                                <rect key="frame" x="80.5" y="324" width="253" height="248"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="7Ia-OL-WVt" secondAttribute="height" multiplier="253:248" id="RKt-XE-cFD"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="azR-1H-J3j">
+                                <rect key="frame" x="85.5" y="145.5" width="243.5" height="80"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hi Andi, Welcome" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2x6-Rn-e4z">
+                                        <rect key="frame" x="0.0" y="0.0" width="243.5" height="36"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="to Silent Moon" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P8b-eP-9nT">
+                                        <rect key="frame" x="29" y="44" width="185.5" height="36"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Explore the app, Find some peace of mind to prepare for meditation" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8en-e1-Spp">
+                                <rect key="frame" x="40" y="245.5" width="334" height="38.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2yi-Vn-adS">
+                                <rect key="frame" x="20" y="792" width="374" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="6MW-TZ-aJ0"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="GET STARTED">
+                                    <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="14"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="startedButtonTapped:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="AND-Ak-YYL"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" red="0.55686274509803924" green="0.59215686274509804" blue="0.99215686274509807" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="7Ia-OL-WVt" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="2H3-mC-n7d"/>
+                            <constraint firstItem="8en-e1-Spp" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="40" id="2XB-Hv-vYM"/>
+                            <constraint firstItem="7Ia-OL-WVt" firstAttribute="top" secondItem="8en-e1-Spp" secondAttribute="bottom" constant="40" id="7Oz-Is-OxG"/>
+                            <constraint firstAttribute="trailing" secondItem="8en-e1-Spp" secondAttribute="trailing" constant="40" id="A3m-8o-hjL"/>
+                            <constraint firstItem="MlO-vo-Jdt" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="ANV-vh-0jd"/>
+                            <constraint firstItem="azR-1H-J3j" firstAttribute="top" relation="greaterThanOrEqual" secondItem="5EZ-qb-Rvc" secondAttribute="top" constant="25" id="Bzy-AX-NnR"/>
+                            <constraint firstItem="8en-e1-Spp" firstAttribute="top" secondItem="azR-1H-J3j" secondAttribute="bottom" priority="750" constant="20" id="FRP-QF-XPY"/>
+                            <constraint firstItem="8en-e1-Spp" firstAttribute="top" secondItem="azR-1H-J3j" secondAttribute="bottom" constant="20" id="OKx-Uq-V84"/>
+                            <constraint firstAttribute="bottom" secondItem="MlO-vo-Jdt" secondAttribute="bottom" id="Wgo-fA-UYw"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="2yi-Vn-adS" secondAttribute="bottom" constant="20" id="Y8p-El-quW"/>
+                            <constraint firstItem="7Ia-OL-WVt" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" priority="250" id="Yie-Bm-aPk"/>
+                            <constraint firstItem="MlO-vo-Jdt" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" id="b5G-Fl-bmR"/>
+                            <constraint firstItem="azR-1H-J3j" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="gKG-dm-PiK"/>
+                            <constraint firstItem="2yi-Vn-adS" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="ld9-m3-ZSB"/>
+                            <constraint firstItem="2yi-Vn-adS" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="p66-yx-UdR"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="2yi-Vn-adS" secondAttribute="trailing" constant="20" id="s0c-Ao-OGu"/>
+                            <constraint firstItem="MlO-vo-Jdt" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="v9N-ut-Hyr"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="startedButton" destination="2yi-Vn-adS" id="KZ8-gf-R6s"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="113.04347826086958" y="62.946428571428569"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bg-iphone" width="1356" height="2934"/>
+        <image name="character-1" width="253" height="248"/>
+    </resources>
+</document>
