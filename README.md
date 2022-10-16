@@ -83,3 +83,11 @@ Learn Custom TableView & Custom UIView
 [SleepApp](https://github.com/anditorx/fazztrack-minibootcamp-iosdev-andi/tree/main/09-Week5-Day02-CustomTableView/SleepApp)
 
 ![SleepApp Result](https://github.com/anditorx/fazztrack-minibootcamp-iosdev-andi/blob/main/09-Week5-Day02-CustomTableView/result-sleepapp-sesi9.gif)
+
+## Week 6 - Day 1 (Session 10)
+
+Learn Custom TableView & Custom UIView
+
+[SleepApp](https://github.com/anditorx/fazztrack-minibootcamp-iosdev-andi/tree/main/10-Week6-Day01-Custom%20Navigation%20Bar/SleepApp)
+
+![SleepApp Result](https://github.com/anditorx/fazztrack-minibootcamp-iosdev-andi/blob/main/10-Week6-Day01-Custom%20Navigation%20Bar/result.gif)
