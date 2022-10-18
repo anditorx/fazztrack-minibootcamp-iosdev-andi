@@ -86,8 +86,16 @@ Learn Custom TableView & Custom UIView
 
 ## Week 6 - Day 1 (Session 10)
 
-Learn Custom TableView & Custom UIView
+Learn Custom Navigation Bar, Dark Mode Support & Advance Swift Programming
 
 [SleepApp](https://github.com/anditorx/fazztrack-minibootcamp-iosdev-andi/tree/main/10-Week6-Day01-Custom%20Navigation%20Bar/SleepApp)
 
 ![SleepApp Result](https://github.com/anditorx/fazztrack-minibootcamp-iosdev-andi/blob/main/10-Week6-Day01-Custom%20Navigation%20Bar/result.gif)
+
+## Week 6 - Day 2 (Session 11)
+
+Learn MapKit Framework
+
+[MapArmor](https://github.com/anditorx/fazztrack-minibootcamp-iosdev-andi/tree/main/11-Week6-Day02-MapKit%20Framework/MapArmor)
+
+![MapArmor Result](https://github.com/anditorx/fazztrack-minibootcamp-iosdev-andi/blob/main/11-Week6-Day02-MapKit%20Framework/result.gif)
