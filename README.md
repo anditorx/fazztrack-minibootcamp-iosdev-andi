@@ -99,3 +99,11 @@ Learn MapKit Framework
 [MapArmor](https://github.com/anditorx/fazztrack-minibootcamp-iosdev-andi/tree/main/11-Week6-Day02-MapKit%20Framework/MapArmor)
 
 ![MapArmor Result](https://github.com/anditorx/fazztrack-minibootcamp-iosdev-andi/blob/main/11-Week6-Day02-MapKit%20Framework/result.gif)
+
+## Week 7 - Day 1 (Session 12)
+
+Learn MapKit Framework & Tugas Food Pin
+
+[FoodPin](https://github.com/anditorx/fazztrack-minibootcamp-iosdev-andi/tree/main/12-Animation%20%26%20Visual%20Effects/FoodPin)
+
+![FoodPin Result](https://github.com/anditorx/fazztrack-minibootcamp-iosdev-andi/blob/main/12-Animation%20%26%20Visual%20Effects/result-foodpin.gif)
