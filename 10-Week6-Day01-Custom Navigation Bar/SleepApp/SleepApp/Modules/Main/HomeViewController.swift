@@ -191,8 +191,8 @@ extension HomeViewController: UICollectionViewDelegateFlowLayout {
 extension HomeViewController: HomeItem1ViewCellDelegate {
     func homeItem1ViewCellStartButtonTapped(_ cell: HomeItem1ViewCell) {
 
-//        presentPlayerViewController()
-        showPlayerViewController()
+        presentPlayerViewController()
+//        showPlayerViewController()
 
     }
 

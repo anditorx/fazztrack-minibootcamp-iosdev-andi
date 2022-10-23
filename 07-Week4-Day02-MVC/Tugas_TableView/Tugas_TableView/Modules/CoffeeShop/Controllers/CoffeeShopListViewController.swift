@@ -114,6 +114,7 @@ class CoffeeShopListViewController: UIViewController, UITableViewDataSource, UIT
         
         let storyboard = UIStoryboard(name: "CoffeeShop", bundle: nil)
         let viewController = storyboard.instantiateViewController(withIdentifier: "CoffeeShopDetail") as! CoffeeShopDetailViewController
+        
         viewController.data = coffeeshops[indexPath.row]
         viewController.name = coffeeshops[indexPath.row].name
         viewController.thumbnails = coffeeshops[indexPath.row].thumbnails
