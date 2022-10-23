@@ -89,32 +89,33 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="CLb-v1-kGM">
-                        <barButtonItem key="leftBarButtonItem" style="plain" id="BQo-Cd-4UV">
-                            <view key="customView" contentMode="scaleToFill" id="L2r-QB-pNF">
-                                <rect key="frame" x="16" y="5.6666666666666679" width="86" height="33"/>
+                        <barButtonItem key="leftBarButtonItem" style="plain" id="tO0-Hp-lZs">
+                            <view key="customView" contentMode="scaleToFill" id="w85-h4-mZF">
+                                <rect key="frame" x="16" y="5.6666666666666679" width="200" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FOODPIN" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DIf-yu-o4q">
-                                        <rect key="frame" x="0.0" y="0.0" width="125" height="33"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FOODPIN" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sDo-bN-oz8">
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="33"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                         <color key="textColor" name="AccentColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="DIf-yu-o4q" secondAttribute="bottom" id="lDn-jV-WQg"/>
-                                    <constraint firstItem="DIf-yu-o4q" firstAttribute="leading" secondItem="L2r-QB-pNF" secondAttribute="leading" id="ll7-Eg-hbe"/>
-                                    <constraint firstItem="DIf-yu-o4q" firstAttribute="top" secondItem="L2r-QB-pNF" secondAttribute="top" id="nj5-JG-OGH"/>
+                                    <constraint firstItem="sDo-bN-oz8" firstAttribute="top" secondItem="w85-h4-mZF" secondAttribute="top" id="G2G-c0-7SY"/>
+                                    <constraint firstItem="sDo-bN-oz8" firstAttribute="leading" secondItem="w85-h4-mZF" secondAttribute="leading" id="NkX-PN-zNe"/>
+                                    <constraint firstAttribute="bottom" secondItem="sDo-bN-oz8" secondAttribute="bottom" id="QSc-DY-5Wb"/>
+                                    <constraint firstAttribute="trailing" secondItem="sDo-bN-oz8" secondAttribute="trailing" id="hA2-Mo-SeJ"/>
                                 </constraints>
                             </view>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" style="plain" id="o9v-B8-xbK">
-                            <view key="customView" contentMode="scaleToFill" id="Zio-fS-Nsh">
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="uhh-BZ-FDk">
+                            <view key="customView" contentMode="scaleToFill" id="DvB-ax-EG3">
                                 <rect key="frame" x="288" y="5.6666666666666679" width="86" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lyk-YP-VfR">
-                                        <rect key="frame" x="20" y="-0.66666666666666785" width="47" height="35"/>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FCw-PQ-9C1">
+                                        <rect key="frame" x="20" y="-3.907985046680551e-14" width="47" height="35"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" image="plus" catalog="system"/>
@@ -130,7 +131,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-5" y="-250"/>
+            <point key="canvasLocation" x="-6.1538461538461533" y="-250.23696682464453"/>
         </scene>
         <!--Restaurant Detail View Controller-->
         <scene sceneID="3fo-hZ-52u">
@@ -308,6 +309,9 @@
                         <rect key="frame" x="0.0" y="47" width="390" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="yyF-Oy-qXv">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
                     <connections>
                         <segue destination="Y6W-OH-hqX" kind="relationship" relationship="rootViewController" id="aWd-ob-4ec"/>
                     </connections>
