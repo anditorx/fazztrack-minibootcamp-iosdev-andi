@@ -2,26 +2,36 @@
 //  RestaurantViewCell.swift
 //  FoodPin
 //
-//  Created by Bayu Yasaputro on 22/10/22.
+//  Created by Armstrong on 22/10/22.
 //
 
 import UIKit
 
-class RestaurantViewCell: UITableViewCell {
-    static let identifier: String = "restaurantCellId"
 
+protocol RestaurantViewCellDelegate: NSObjectProtocol {
+    func restaurantViewCellTapped(_ cell: RestaurantViewCell)
+}
+
+class RestaurantViewCell: UITableViewCell {
     @IBOutlet weak var thumbImageView: UIImageView!
-    @IBOutlet weak var ratingImageView: UIImageView!
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var addressLabel: UILabel!
     @IBOutlet weak var categoryLabel: UILabel!
     
-    @IBOutlet weak var topConstraint: NSLayoutConstraint!
-    @IBOutlet weak var bottomConstraint: NSLayoutConstraint!
+    var delegate: RestaurantViewCellDelegate?
     
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        
+        
+        setup()
+    }
+    
+    func setup() {
+        thumbImageView.layer.cornerRadius = 12
+        thumbImageView.layer.masksToBounds = true
+        
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
@@ -29,5 +39,5 @@ class RestaurantViewCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
-    
+
 }
