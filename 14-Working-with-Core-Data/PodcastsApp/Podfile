@@ -1,0 +1,19 @@
+# Uncomment the next line to define a global platform for your project
+# minimum_ios_version = '9.0'
+platform :ios, '16.0' 
+
+target 'PodcastsApp' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for PodcastsApp
+
+  # Alamofire - Library for networking
+  pod 'Alamofire' 
+
+  # Library for downloading images from the web
+  pod 'Kingfisher' 
+
+
+
+end
