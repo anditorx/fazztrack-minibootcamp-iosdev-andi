@@ -115,3 +115,11 @@ Working with Camera & Creating Input Form
 [FoodPin](https://github.com/anditorx/fazztrack-minibootcamp-iosdev-andi/tree/main/13-Working%20with%20Camera%20%26%20Creating%20Input%20Form/FoodPin)
 
 ![FoodPin Result](https://github.com/anditorx/fazztrack-minibootcamp-iosdev-andi/blob/main/13-Working%20with%20Camera%20%26%20Creating%20Input%20Form/result.gif)
+
+## Week 8 - Day 1 (Session 14)
+
+Working with Core Data
+
+[Podcast](https://github.com/anditorx/fazztrack-minibootcamp-iosdev-andi/tree/main/14-Working-with-Core-Data/PodcastsApp)
+
+![Podcast Result](https://github.com/anditorx/fazztrack-minibootcamp-iosdev-andi/blob/main/14-Working-with-Core-Data/result.gif)
