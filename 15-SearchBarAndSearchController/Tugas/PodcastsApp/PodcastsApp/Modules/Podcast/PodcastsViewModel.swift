@@ -60,6 +60,7 @@ class PodcastsViewModel {
     func addToFavorite(at index: Int) {
         let podcast = podcasts[index]
         return DPodcast.save(podcast, at: viewContext)
+        
     }
     
     func deleteToFavorite(at index: Int) {

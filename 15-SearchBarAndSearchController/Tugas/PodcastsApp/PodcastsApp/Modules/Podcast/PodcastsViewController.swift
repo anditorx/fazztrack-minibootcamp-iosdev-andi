@@ -111,9 +111,21 @@ extension PodcastsViewController: UITableViewDelegate {
             
             if isFavorited {
                 self.viewModel.deleteToFavorite(at: index)
+                let alert = UIAlertController(title: "Success", message: "Successfully un-favorite podcast.", preferredStyle: .alert)
+                    alert.view.backgroundColor = .black
+                    alert.view.alpha = 0.5
+                    alert.view.layer.cornerRadius = 15
+                    self.present(alert, animated: true)
+                    DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 2) { alert.dismiss(animated: true) }
             }
             else {
                 self.viewModel.addToFavorite(at: index)
+                let alert = UIAlertController(title: "Success", message: "Successfully favorite podcast.", preferredStyle: .alert)
+                    alert.view.backgroundColor = .black
+                    alert.view.alpha = 0.5
+                    alert.view.layer.cornerRadius = 15
+                    self.present(alert, animated: true)
+                    DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 2) { alert.dismiss(animated: true) }
             }
             
             completion(true)
@@ -134,3 +146,5 @@ extension PodcastsViewController: UITableViewDelegate {
     
    
 }
+
+
