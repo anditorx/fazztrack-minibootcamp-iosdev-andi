@@ -11,6 +11,8 @@ import CoreData
 
 
 public class DPodcast: NSManagedObject {
+    static let favoritedPodcastKey = "favoritedPodcastKey"
+
     class func save(_ podcast: Podcast, at context: NSManagedObjectContext) {
         
         let request: NSFetchRequest<DPodcast> = DPodcast.fetchRequest()
@@ -24,9 +26,7 @@ public class DPodcast: NSManagedObject {
             let dPodcast = NSEntityDescription.entity(forEntityName: "DPodcast", in: context)!
             entity = NSManagedObject(entity: dPodcast, insertInto: context) as! DPodcast
         }
-        print("print req \(request)")
-        print("print entity \(entity)")
-        
+      
         entity.trackId_ = Int64(podcast.trackId)
         entity.trackname = podcast.trackName
         entity.trackCount_ = Int16(podcast.trackCount)
@@ -37,6 +37,13 @@ public class DPodcast: NSManagedObject {
         try? context.save()
         
     }
+    
+//    func savedPodcasts() -> [Podcast] {
+//            guard let savedPodcastsData = UserDefaults.standard.data(forKey: UserDefaults.favoritedPodcastKey) else { return [] }
+//
+//            guard let savedPodcasts = NSKeyedUnarchiver.unarchiveObject(with: savedPodcastsData) as? [Podcast] else { return [] }
+//            return savedPodcasts
+//        }
     
     class func fetch(in context: NSManagedObjectContext) -> [Podcast] {
         let request: NSFetchRequest<DPodcast> = DPodcast.fetchRequest()

@@ -20,22 +20,31 @@ class FavoritesViewController: BaseViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         // Do any additional setup after loading the view.
         setup()
-        
-        getDataFavorite()
       
     }
     
-    func getDataFavorite() {
+    
+    override func viewWillAppear(_ animated: Bool) {
+            super.viewWillAppear(animated)
+            
+            let fetchData = viewModel.getAllDataFromCoreData()
+            favorited = fetchData
+            favoriteCount = (fetchData as AnyObject).count
         
-        let fetchData = viewModel.getAllDataFromCoreData()
-        print("print fetchData 1 : \(fetchData)")
-        favorited = fetchData
-        favoriteCount = (fetchData as AnyObject).count
+            collectionView?.reloadData()
     }
     
+//    func getDataFavorite() {
+//        let fetchData = viewModel.getAllDataFromCoreData()
+//        favorited = fetchData
+//        favoriteCount = (fetchData as AnyObject).count
+//    }
+    
     func setup() {
+        
         collectionView.dataSource = self
         collectionView.delegate = self
         self.collectionView.reloadData()
