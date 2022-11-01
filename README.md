@@ -123,3 +123,11 @@ Working with Core Data
 [Podcast](https://github.com/anditorx/fazztrack-minibootcamp-iosdev-andi/tree/main/14-Working-with-Core-Data/PodcastsApp)
 
 ![Podcast Result](https://github.com/anditorx/fazztrack-minibootcamp-iosdev-andi/blob/main/14-Working-with-Core-Data/result.gif)
+
+## Week 8 - Day 2 (Session 15)
+
+Working with Core Data
+
+[Tugas Podcast](https://github.com/anditorx/fazztrack-minibootcamp-iosdev-andi/tree/main/15-SearchBarAndSearchController/Tugas/PodcastsApp)
+
+![Tugas Podcast Result](https://github.com/anditorx/fazztrack-minibootcamp-iosdev-andi/blob/main/15-SearchBarAndSearchController/Tugas/result-tugas-podcast.gif)
