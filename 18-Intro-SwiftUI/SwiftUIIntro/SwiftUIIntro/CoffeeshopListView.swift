@@ -48,14 +48,41 @@ struct CoffeeshopListView: View {
     
     // MARK: Body
     var body: some View {
-        List {
-            ForEach(coffeeshops.indices, id: \.self) { index in
+        NavigationStack {
+            List {
+                ForEach(coffeeshops.indices, id: \.self) { index in
+                    
+                    NavigationLink(destination: CoffeeshopDetailView(coffeeshop: coffeeshops[index])) {
+                        
+                        StandardRowView(coffeeshop: $coffeeshops[index])
+                            .swipeActions(edge: .leading, allowsFullSwipe: false) {
+                                Button {
+                                    
+                                } label: {
+                                    Image(systemName: "heart")
+                                }
+                                .tint(.red)
+                                
+                                Button {
+                                    
+                                } label: {
+                                    Image(systemName: "square.and.arrow.up.fill")
+                                }
+                                .tint(.yellow)
+                        }
+                    }
+                } //: LOOP
                 
-                StandardRowView(coffeeshop: $coffeeshops[index])
-                
-            } //: LOOP
-        } //: LIST
-        .listStyle(.plain)
+                .onDelete(perform: {IndexSet in
+                    coffeeshops.remove(atOffsets: IndexSet)
+                })
+                .listRowSeparator(.hidden)
+            } //: LIST
+            .listStyle(.plain)
+            .navigationTitle("Coffeeshop")
+            .navigationBarTitleDisplayMode(.automatic)
+        } //: NAVIGATION STACK
+        .tint(.white)
     }
 }
 
@@ -64,6 +91,7 @@ struct StandardRowView: View {
     
     @State private var showAlert: Bool = false
     @State private var showOptions: Bool = false
+    @State private var shareOption: Bool = false
     
     @Binding var coffeeshop: Coffeeshop
     
@@ -95,18 +123,55 @@ struct StandardRowView: View {
                     .foregroundColor(.yellow)
             }
         } //: HSTACK
-        .onTapGesture {
-            showOptions.toggle()
-        }
-        .confirmationDialog("What do you want to do?", isPresented: $showOptions, titleVisibility: .visible) {
-            
-            Button("Reserve a table"){
+//        .onTapGesture {
+//            showOptions.toggle()
+//        }
+//        .confirmationDialog("What do you want to do?", isPresented: $showOptions, titleVisibility: .visible) {
+//
+//            Button("Reserve a table"){
+//                self.showAlert.toggle()
+//            }
+//            Button(coffeeshop.isFavorite ? "Remove from favorite" : "Mark as favorite"){
+//                self.coffeeshop.isFavorite.toggle()
+//            }
+//        }
+        .contextMenu {
+            Button {
                 self.showAlert.toggle()
-            }
-            Button(coffeeshop.isFavorite ? "Remove from favorite" : "Mark as favorite"){
-                self.coffeeshop.isFavorite.toggle()
+            } label: {
+                HStack {
+                    Text("Pin this location")
+                    Image(systemName: "pin")
+                    
+                }
             }
             
+            Button {
+                self.coffeeshop.isFavorite.toggle()
+            } label: {
+                HStack {
+                    Text(coffeeshop.isFavorite ? "Remove from favorites" : "Mark as favorite")
+                    Image(systemName: coffeeshop.isFavorite ? "heart.slash" : "heart")
+                }
+            }
+            
+            Button {
+                self.shareOption.toggle()
+            } label: {
+                HStack {
+                    Text("Share")
+                    Image(systemName: "square.and.arrow.up")
+                }
+            }
+
+        }
+        .sheet(isPresented: $shareOption) {
+            let message = "I Just share this \(coffeeshop.name) to you!"
+            if let imageToShare = UIImage(named: coffeeshop.image) {
+                ActivityView(activityItems: [message, imageToShare])
+            } else {
+                ActivityView(activityItems: [message])
+            }
         }
         .alert("Not yet available", isPresented: $showAlert, actions: {
             Button("OK") {}

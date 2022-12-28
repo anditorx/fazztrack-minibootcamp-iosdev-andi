@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E5182804295C360700ABA8E7 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5182803295C360700ABA8E7 /* ActivityView.swift */; };
+		E5182807295C751200ABA8E7 /* CoffeeshopDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5182806295C751200ABA8E7 /* CoffeeshopDetailView.swift */; };
 		E5850C522958616700AEB8DB /* SwiftUIIntroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5850C512958616700AEB8DB /* SwiftUIIntroApp.swift */; };
 		E5850C542958616700AEB8DB /* CoffeeshopListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5850C532958616700AEB8DB /* CoffeeshopListView.swift */; };
 		E5850C562958616900AEB8DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5850C552958616900AEB8DB /* Assets.xcassets */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E5182803295C360700ABA8E7 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		E5182806295C751200ABA8E7 /* CoffeeshopDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeshopDetailView.swift; sourceTree = "<group>"; };
 		E5850C4E2958616700AEB8DB /* SwiftUIIntro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIIntro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5850C512958616700AEB8DB /* SwiftUIIntroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIIntroApp.swift; sourceTree = "<group>"; };
 		E5850C532958616700AEB8DB /* CoffeeshopListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeshopListView.swift; sourceTree = "<group>"; };
@@ -34,6 +38,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E5182802295C35C500ABA8E7 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				E5182803295C360700ABA8E7 /* ActivityView.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		E5182805295C74F100ABA8E7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E5182806295C751200ABA8E7 /* CoffeeshopDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		E5850C452958616700AEB8DB = {
 			isa = PBXGroup;
 			children = (
@@ -53,6 +73,8 @@
 		E5850C502958616700AEB8DB /* SwiftUIIntro */ = {
 			isa = PBXGroup;
 			children = (
+				E5182805295C74F100ABA8E7 /* View */,
+				E5182802295C35C500ABA8E7 /* Helper */,
 				E5850C5F2958B5C700AEB8DB /* Model */,
 				E5850C512958616700AEB8DB /* SwiftUIIntroApp.swift */,
 				E5850C532958616700AEB8DB /* CoffeeshopListView.swift */,
@@ -149,7 +171,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5850C612958B5F400AEB8DB /* Coffeeshop.swift in Sources */,
+				E5182804295C360700ABA8E7 /* ActivityView.swift in Sources */,
 				E5850C542958616700AEB8DB /* CoffeeshopListView.swift in Sources */,
+				E5182807295C751200ABA8E7 /* CoffeeshopDetailView.swift in Sources */,
 				E5850C522958616700AEB8DB /* SwiftUIIntroApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
